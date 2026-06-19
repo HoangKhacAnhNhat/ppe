@@ -8,7 +8,11 @@ Tạo folder checkpoint và đưa file vừa tải vào đây và sửa trong ph
 ## Cách chạy code DEMO
 Cài đặt các thư viện cần thiết (cần cài torch cuda để có thể dùng GPU)
 ```
-uv pip install -e .
+uv venv
+```
+
+```
+uv pip install -r requirements.txt
 ```
 Kích hoạt môi trường ảo
 ```
