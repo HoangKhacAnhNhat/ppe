@@ -1,7 +1,7 @@
 # ĐATN PPE Detection
 
 ## Cách lấy checkpoint 
-Vào [Dagshub]('https://dagshub.com/danghoanghai042/ppe_v2/experiments') và chọn experiment muốn lấy checkpoint. Sau đó tìm phần Artifacts và tại checkpoint trong Weights.
+Vào [Dagshub](experiments) và chọn experiment muốn lấy checkpoint. Sau đó tìm phần Artifacts và tại checkpoint trong Weights.
 
 Tạo folder checkpoint và đưa file vừa tải vào đây và sửa trong phần config đường dẫn tới model.
 
