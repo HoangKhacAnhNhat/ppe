@@ -1,0 +1,13 @@
+train: ../train_data/train/images
+val: ../train_data/valid/images
+test: ../test_data/valid/images
+
+nc: 9
+names: ['boots', 'gloves', 'helmet', 'no_boots', 'no_gloves', 'no_helmet', 'no_vest', 'person', 'vest']
+
+roboflow:
+  workspace: hehehehehehe-fo4ke
+  project: my-first-project-nglir
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hehehehehehe-fo4ke/my-first-project-nglir/dataset/3
