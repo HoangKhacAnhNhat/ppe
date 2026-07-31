@@ -3,3 +3,5 @@ checkpoint/
 videos/
 runs/
 *.pt
+__pycache__/**
+scripts/__pycache__/**
