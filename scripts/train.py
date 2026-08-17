@@ -112,6 +112,8 @@ def train(mode: str, data: str | Path, overrides: dict[str, Any], pipeline_path:
         "project": cfg["project"],
         "name": cfg["name"],
         "device": cfg["device"],
+        "workers": 0,
+        "cache": False,
         "resume": cfg.get("resume", False),
     }
 
